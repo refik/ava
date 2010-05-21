@@ -1,0 +1,104 @@
+body {
+  font-family: Verdana, Helvetica, sans-serif;
+  background-color: #DDDDDD;
+  font-size: 0.7em;
+  color: #666;
+}
+#wrapper{
+	width:550px;
+	margin: auto;
+}
+#comments{
+	float:left;
+	width: 500px;
+	margin: auto;
+}
+
+#vote{
+	width: 500px;
+	margin: auto;
+}
+
+fieldset { border: 0; margin-bottom: 20px; }
+legend { font-size: 17px; font-weight: bold; }
+
+.radiolist {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.radiolist p {
+	float: left;
+	margin-right: 10px;
+	background: url(/site_media/image/checkboxbg.gif) no-repeat 0 0;
+	width: 210px;
+	height: 110px;
+	position: relative;
+	font: normal 11px/1.3 "Lucida Grande","Lucida","Arial",Sans-serif;
+}
+.radiolist p.selected { background-position: -210px 0; }
+
+.radiolist p.selected .radio-select { display: none; }
+
+.radio-select {
+	display: block;
+	float: left;
+	position: absolute;
+	top: 83px;
+	left: 62px;
+	width: 85px;
+	height: 23px;
+	background: url(/site_media/image/select.gif) no-repeat 0 0;
+	text-indent: -9999px;
+}
+
+.radiolist p input { display: none; }
+
+a.radio-deselect {
+	display: none;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	position: absolute;
+	top: 85px;
+	right: 10px;
+}
+.radiolist p.selected a.radio-deselect { display: block; }
+
+.radiolist p span {
+	display: block;
+	text-align: center;
+	padding: 8px;
+}
+
+.sendit {
+	display: block;
+	#float: left;
+	top: 118px;
+	left: 10px;
+	width: 115px;
+	height: 34px;
+	border: 0;
+	cursor: pointer;
+	background: url(/site_media/image/sendit.gif) no-repeat 0 0;
+	text-indent: -9999px;
+	margin: 20px 150px;
+	clear:both;
+}
+
+.paginator { padding: .25em .25em .6em .25em; }
+.paginate-pages { padding: 2px 3px; border: 1px solid #000000; cursor: pointer; text-decoration: none;background:#FFFFFF; }
+.paginate-first, .paginate-last { padding: 2px 6px; border: 1px solid #000000; font-weight: bold;text-decoration:none; background:#FFFFFF; }
+.paginate-previous, .paginate-next { padding: 2px 3px; border: 1px solid #000000;background:#FFFFFF; }
+.paginate-link { padding: 2px 4px; border: 1px solid #000000;background:#FFFFFF; }
+.paginate-current { padding: 2px 4px; border: 1px solid #000000; font-weight: bold; background:#417690; color:#f4f379; }
+
+.link a:link {text-decoration: none; color:#999;}
+.link a:visited {text-decoration: none; color:#999;}
+.link a:active {text-decoration: none; color:#999;}
+.link a:hover {text-decoration: underline; color: red;}
+
+.link2 a:link {text-decoration: none; color:#666;}
+.link2 a:visited {text-decoration: none; color:#666;}
+.link2 a:active {text-decoration: none; color:#666;}
+.link2 a:hover {text-decoration: underline; color: 666;}
